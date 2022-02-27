@@ -71,7 +71,7 @@ body {
 }
 
 .illustration {
-  width: 120vw;
+  width: 125vw;
 }
 
 .advent,
@@ -127,4 +127,10 @@ h4 {
 
 h4 span {
   margin-top: 12px;
+}
+
+.of-svg {
+  bottom: -40px;
+  left: -10px;
+  position: relative;
 }
