@@ -86,15 +86,22 @@ h2 {
   font-family: var(--silverAge);
   font-size: 2.25rem;
   font-weight: normal;
+
+  margin-bottom: 10px;
 }
 
 h3 {
-  background: var(--oracle);
   color: var(--ceramic);
   font-family: var(--silverAge);
   font-size: 2.75rem;
   font-weight: normal;
+
   text-transform: uppercase;
+
+  background: var(--oracle);
+  display: inline-block;
+  padding: 20px 25px 10px 25px;
+  margin-bottom: 10px;
 }
 
 h4 {
