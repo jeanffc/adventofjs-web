@@ -22,6 +22,11 @@
   src: url("../fonts/Strange\ Tales.ttf");
 }
 
+@font-face {
+  font-family: "Silver Age";
+  src: url("../fonts/Silver\ Age\ Queens.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -57,6 +62,8 @@ body {
 .content {
   position: absolute;
   transform: skewY(-9deg);
+
+  text-align: center;
 }
 
 .illustration {
@@ -71,5 +78,29 @@ body {
   font-weight: normal;
   line-height: 1.25;
 
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--amaranth);
+  font-family: var(--silverAge);
+  font-size: 2.25rem;
+  font-weight: normal;
+}
+
+h3 {
+  background: var(--oracle);
+  color: var(--ceramic);
+  font-family: var(--silverAge);
+  font-size: 2.75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: var(--ceramic);
+  font-family: var(--silverAge);
+  font-size: 1.5rem;
+  font-weight: normal;
   text-transform: uppercase;
 }
