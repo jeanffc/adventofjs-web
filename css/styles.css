@@ -1,0 +1,75 @@
+:root {
+  --ceramic: #fffefa;
+  --amaranth: #e8234d;
+  --crimsonGlory: #c0002b;
+  --rhino: #2c3964;
+  --cloudBurst: #202b4c;
+  --pastelBlue: #b3c8d3;
+  --darkPastelBlue: #7e90c9;
+  --floralWhite: #fffcf1;
+  --atoll: #0e6f73;
+  --silverSand: #c3c3c3;
+  --malibu: #59bcd4;
+  --bostonBlue: #3e8daf;
+  --oracle: #006e74;
+  --blueZodiac: #152a48;
+  --silverAge: "Silver Age";
+  --strangeTales: "Strange Tales";
+}
+
+@font-face {
+  font-family: "Strange Tales";
+  src: url("../fonts/Strange\ Tales.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--blueZodiac) url("../img/plaid.png") center top repeat;
+}
+
+.header {
+  position: relative;
+
+  width: 100vw;
+  padding-bottom: 20px;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  background: var(--rhino);
+}
+
+.content {
+  position: absolute;
+  transform: skewY(-9deg);
+}
+
+.illustration {
+  width: 100vw;
+}
+
+.advent,
+.javascript {
+  color: var(--ceramic);
+  font-family: var(--strangeTales);
+  font-size: 8.75rem;
+  font-weight: normal;
+  line-height: 1.25;
+
+  text-transform: uppercase;
+}
