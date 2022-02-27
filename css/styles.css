@@ -124,9 +124,30 @@ h4 span {
   left: -25px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 10vw;
-    line-height: 1.25;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 3.15vw;
+  }
+
+  h3 {
+    font-size: 3.5vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+  .of-svg {
+    width: 8vw;
+    height: 12vh;
+  }
+
+  .compressed-svg {
+    width: 12vw;
   }
 }
