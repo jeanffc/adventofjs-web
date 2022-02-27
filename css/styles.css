@@ -59,6 +59,10 @@ body {
   background: var(--rhino);
 }
 
+.login:hover {
+  background: var(--amaranth);
+}
+
 .content {
   position: absolute;
   transform: skewY(-9deg);
@@ -67,7 +71,7 @@ body {
 }
 
 .illustration {
-  width: 100vw;
+  width: 120vw;
 }
 
 .advent,
